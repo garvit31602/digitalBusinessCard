@@ -1,0 +1,80 @@
+body{
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    background-color: lightblue;
+}
+
+#layout{
+    height: fit-content;
+    width: 317px;
+    margin: auto;
+    background: #1A1B21;
+    color: white;
+}
+
+#name{
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+#job{
+    color: orange;
+    font-size: 13px;
+}
+
+#website{
+    font-size: 10px;
+}
+
+button{
+    height: 35px;
+    width: 110px;
+    border-radius: 5px;
+}
+
+#buttons{
+    display: flex;
+    gap:8px;
+    justify-content: center;
+    margin: 10px 0px 20px;
+}
+
+#email{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#linkedin{
+    background-color: #5093E2;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#about{
+    width: 228px;
+    text-align:left;
+    margin: auto;
+}
+
+#heading{
+    margin-right: 100%;
+    font-weight: bolder;
+    font-size: large;
+}
+
+#content{
+    font-size: 1px;
+}
+
+#footer{
+    background-color: #161619;
+}
+
+#footer img{
+    padding: 10px;
+}
